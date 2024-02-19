@@ -1,0 +1,112 @@
+
+body{
+
+    display: flex;
+    background-color: rgba(120, 177, 218, 0.819);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(222, 148, 56);
+    border-radius: 15px;
+    max-width: 500px;
+    box-shadow: 0 5px 10px ;
+     overflow: hidden; 
+    align-items: center;
+    width: 300px;
+}
+
+#display{
+
+    width: 100%;
+    padding: 20px;
+    font-size: larger;
+    text-align: left;
+    border: none;
+    background-color: rgba(31, 30, 30, 0.852);
+    margin-top: 10px;
+    color: aliceblue;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 15px;
+    
+   
+}
+#keys{
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 25px;
+}
+button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4b4c4d;
+    color: white;
+    font-size:large;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+
+
+/* 
+body{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.container{
+
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 20px 20px;
+    border-radius: 12px;
+    background: rgba(27, 135, 243, 0.812);
+    box-shadow: 0 5px 10px ;
+}
+
+.display{
+
+    height: 60px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #000e1a; 
+}
+
+.keys{
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr)
+}
+
+.keys button{
+
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4b4c4d;
+    color: white;
+    font-size:large;
+    cursor: pointer;
+} */
